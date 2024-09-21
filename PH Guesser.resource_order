@@ -16,5 +16,15 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"rm_game","order":2,"path":"rooms/rm_game/rm_game.yy",},
+    {"name":"obj_const","order":2,"path":"objects/obj_const/obj_const.yy",},
+    {"name":"scr_destroyloc","order":1,"path":"scripts/scr_destroyloc/scr_destroyloc.yy",},
+    {"name":"obj_locimg001","order":1,"path":"objects/obj_locimg001/obj_locimg001.yy",},
+    {"name":"obj_loctable","order":3,"path":"objects/obj_loctable/obj_loctable.yy",},
+    {"name":"obj_map","order":4,"path":"objects/obj_map/obj_map.yy",},
+    {"name":"rm_menu_main","order":1,"path":"rooms/rm_menu_main/rm_menu_main.yy",},
+    {"name":"scr_drawmap","order":2,"path":"scripts/scr_drawmap/scr_drawmap.yy",},
+    {"name":"spr_testimg01","order":1,"path":"sprites/spr_testimg01/spr_testimg01.yy",},
+  ],
 }
