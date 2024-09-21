@@ -2,6 +2,10 @@
 layerdepth_locimg = 5
 layerdepth_enginetools = 0
 
+//basic
+screenCenter_x = room_width / 2
+screenCenter_y = room_height / 2
+
 
 //locimg params
 obj_locimg_x = 50
@@ -14,6 +18,8 @@ map_id = 0
 obj_map_x = 800
 obj_map_y = 500
 mapscale_small = .05
+mapscale_large = 1
+mapscale_speed = .01
 
 
 

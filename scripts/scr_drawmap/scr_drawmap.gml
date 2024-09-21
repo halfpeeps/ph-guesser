@@ -8,8 +8,9 @@ function scr_drawmap(){
 		if layer_exists("layer_map"){
 			obj_const.map_id = instance_create_layer(map_x, map_y, "layer_map", obj_map)
 			var map_id = obj_const.map_id
-			map_id.image_xscale = obj_const.mapscale_small
-			map_id.image_yscale = obj_const.mapscale_small
+			//map_id.image_xscale = obj_const.mapscale_small
+			//map_id.image_yscale = obj_const.mapscale_small
+			show_debug_message("Map created")
 		}
 	}
 
