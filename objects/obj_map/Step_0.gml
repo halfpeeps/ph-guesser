@@ -1,4 +1,4 @@
-scaled_thisStep = false
+var scaledThisStep = false
 
 if position_meeting(mouse_x, mouse_y, self) {
 	isHovering = true
@@ -12,10 +12,18 @@ if !position_meeting(mouse_x, mouse_y, self) {
 	}
 }
 
+if isHovering = true {
+	scaleUp = true
+}
+else
+{
+	scaleUp = false
+}
 
 
 
-if isHovering {
+
+if scaleUp {
 	if self.image_xscale != global.mapscale_large {
 		show_debug_message(self.image_xscale)
 		self.image_xscale = self.image_xscale + global.mapscale_speed
@@ -27,12 +35,12 @@ if isHovering {
 		self.image_yscale = self.image_yscale
 	}
 	
-	scaled_thisStep = true
+	scaledThisStep = true
 }
 
 
 if !scaled_thisStep {
-	if !isHovering {
+	if !scaleUp {
 		if self.image_xscale != global.mapscale_small {
 			self.image_xscale = self.image_xscale - global.mapscale_speed
 			self.image_yscale = self.image_xscale
