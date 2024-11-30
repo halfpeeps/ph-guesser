@@ -1,3 +1,3 @@
-loctable = []
+locTable = []
 
-array_push(loctable, obj_loc001)
+array_push(locTable, obj_loc001)

@@ -6,5 +6,5 @@ loc_y = 50
 loc_ent = obj_locimg001
 
 show_debug_message("Starting scr_drawloc")
-locimg = scr_drawloc(loc_id, loc_ent)
+locimg = drawLoc(loc_id, loc_ent)
 show_debug_message(locimg)

@@ -1,3 +1,4 @@
+//params
 //layers
 layerdepth_locimg = 5
 layerdepth_enginetools = 0
@@ -20,7 +21,12 @@ global.map_x = 800
 global.map_y = 500
 global.mapscale_small = .05
 global.mapscale_large = 1
-global.mapscale_speed = .01
+global.mapscale_speed = .1
 
+
+
+
+//init
 instance_create_layer(global.locimg_x, global.locimg_y, "layer_tools", obj_loc001)
-scr_drawmap()
+instance_create_layer(0, 0, "layer_background", obj_background)
+drawMap()

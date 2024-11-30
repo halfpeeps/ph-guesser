@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scr_destroyloc",
+  "name": "destroyLoc",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

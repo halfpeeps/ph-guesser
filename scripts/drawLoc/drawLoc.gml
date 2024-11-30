@@ -1,4 +1,4 @@
-function scr_drawloc(loc_id, loc_ent){
+function drawLoc(loc_id, loc_ent){
 	show_debug_message("scr_drawloc started")
 	
 	locimg_x = global.locimg_x
@@ -7,7 +7,7 @@ function scr_drawloc(loc_id, loc_ent){
 	locimg_layername = global.locimg_layername
 	
 	if !layer_exists(locimg_layername){
-		layer_create(obj_const.layerdepth_locimg, locimg_layername)
+		layer_create(obj_init.layerdepth_locimg, locimg_layername)
 	}
 	
 	locimg_gameid = instance_create_layer(locimg_x, locimg_y, locimg_layername, loc_ent)
